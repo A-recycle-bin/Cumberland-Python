@@ -2,11 +2,12 @@
 # strictement positifs inférieurs ou égaux à n
 # si la factorielle est 5, le calcul est 1x2x3x4x5
 b = input('Entrez le nombre a calculer la factorielle : ')
-def factoriel(b):
+def fonct_factorielle(b):
     b = int(b)
     a = 1
     for i in range(2,b+1):
-        a = a * i
-        print(a)
+        a *= i
+        print('Resultat :', a)
 
-factoriel(b)
+
+fonct_factorielle(b)

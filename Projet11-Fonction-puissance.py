@@ -2,41 +2,44 @@
 #Si le chiffre est 5, on effectue 5x5x5x5x5
 
 
-# Fonction puissance
+# Fonction puissance avec if et else
 
-a = input('Entrez le nombre a calculer la puissance : ')
-b = input('Entrez son exposant : ')
+a = input('Entrez le premier nombre : ')
+b = input('Entrez le deuxieme nombre : ')
 
-def puissance(a, b):
+def fonc_puissance(a, b):
     a = int(a)
     b = int(b)
     if b == 0:
         return 1
     else:
-        return a * puissance(a, b-1)
+        return a * fonc_puissance(a, b-1)
 
-print('Le resultat est :', puissance(a, b))
+print('Le resultat, avec if/else, est :', fonc_puissance(a, b))
 
-# Fonction puissance 2
-def nombre_puissance():
-    c = input('Entrez un nombre : ')
+
+# Fonction puissance avec **
+def fonc_puissance2():
+    c = input('Entrez le premier nombre : ')
     c = int(c)
-    e = input('Entrez son exposant : ')
+    e = input('Entrez le deuxieme nombre : ')
     e = int(e)
     r = c ** e
-    print('Le resultat est :', r)
-nombre_puissance()
+    print('Le resultat, avec **, est :', r)
+fonc_puissance2()
 print('\n')
 
 
 # Fonction pow python
-def powpow():
-    a = input('Entrez le nombre : ')
-    b = input('Entrez son exposant :')
+def fonc_puissancepow():
+    a = input('Entrez le premier nombre : ')
+    b = input('Entrez le deuxieme nombre :')
     a = int(a)
     b= int(b)
     print('\n')
-    print('Le resultat est :', pow(a, b))
-powpow()
+    print('Le resultat, avec pow, est :', pow(a, b))
+fonc_puissancepow()
 
 exit()
+
+# Il est aussi possible de le faire avec le module math

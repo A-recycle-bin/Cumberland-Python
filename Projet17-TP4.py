@@ -5,16 +5,23 @@
 semaine = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi']
 for i in semaine:
     print(i)
-print('\n\n')
+
+print()
+
+
 
 # Creation dun tuple avec les mois de l annee
+# Afficher les tuples avec une boucle while
 mois = ('Janvier', 'Fevrier', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Decembre')
 m = 0
 while m < len(mois):
   print(mois[m])
-  i = i + 1
+  m = m + 1
+
+print()
 
 # Creation dun dictionnaire avec la capitale des pays
+# Afficher la liste, ajouter une entrée et afficher a nouveau
 capitale = {
     'Canada': 'Ottawa',
     'USA': 'Washington',
@@ -23,6 +30,8 @@ capitale = {
     'Roumanie':	'Bucarest',
     'Royaume-Uni':	'Londres'
 }
-print(capitale)
-capitale.update({'Quebec' = 'Quebec'})
-print(capitale)
+print('La liste des capitales est la suivante:\n',capitale)
+print()
+capitale.update({'Quebec': 'Quebec'})
+print('La liste des capitales MISE A JOUR est la suivante:\n',capitale)
+
