@@ -9,3 +9,14 @@ def fonc_calcul_moyenne(a, b, c, d):
 
 fonc_calcul_moyenne(90, 60, 95, 70)
 
+
+#Moyenne des nombres avec une boucle for
+def fonc_calcul_moyenne2(nbr):
+    somme = 0
+    for i in nbr:
+        somme += i
+    moyenne =  somme / len(nbr)
+    return moyenne
+
+
+print('La moyenne des nombres est :', fonc_calcul_moyenne2([10,20,30,40,50]))
