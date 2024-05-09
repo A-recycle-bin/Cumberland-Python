@@ -4,8 +4,8 @@
 
 # Fonction puissance avec if et else
 
-a = input('Entrez le premier nombre : ')
-b = input('Entrez le deuxieme nombre : ')
+a = int(input('Entrez le premier nombre : '))
+b = int(input('Entrez le deuxieme nombre : '))
 
 def fonc_puissance(a, b):
     if b == 0:
