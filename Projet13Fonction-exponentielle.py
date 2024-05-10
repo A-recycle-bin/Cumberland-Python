@@ -25,10 +25,10 @@ def fonc_exponentielle():
     k = int(input('\n[+] Veuillez entrer la valeur de k :'))
     k = 0
     res = 0
-    while k <= n :
+    while k <= x :
         res = res + fonc_puissance(x, k) / fonc_factorielle(k)
         k = k + 1
-    return res
+        print(res)
 
 
 fonc_exponentielle()
