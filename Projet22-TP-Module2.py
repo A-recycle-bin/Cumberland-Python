@@ -23,3 +23,11 @@ def path_back():
 
 #print(os.listdir())
 #print(os.name)
+#print(os.getpid())
+#print(os.getlogin())
+#print(os.listdrives())
+
+#os.mkdir('george'))
+#print(os.listdir())
+#os.rmdir('george')
+#print(os.listdir())
