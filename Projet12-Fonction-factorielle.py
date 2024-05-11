@@ -7,10 +7,10 @@ def fonct_factorielle():
     b = int(input('Entrez le nombre a calculer la factorielle : '))
     for i in range(2,b+1):
         a *= i
-        print('Resultat :', a)
+    print('La factorielle du nombre entrée est :', a)
 
 
-#fonct_factorielle()
+fonct_factorielle()
 
 
 
