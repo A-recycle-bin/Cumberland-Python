@@ -53,8 +53,8 @@ def liste():
 """
 
 substitution = {
-    'a' : 'z',
-    'b' : 'y',
+    'a': 'z',
+    'b': 'y',
     'c': 'x',
     'd': 'w',
     'e': 'v',
